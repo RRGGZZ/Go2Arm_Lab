@@ -12,11 +12,11 @@ from omni.isaac.lab.utils.math import combine_frame_transforms, quat_error_magni
 from omni.isaac.lab.utils.math import quat_rotate_inverse, yaw_quat
 
 if TYPE_CHECKING:
-    from omni.isaac.lab.envs import ManagerBasedRLEnv, Go2ManagerBasedRLEnv
+    from omni.isaac.lab.envs import ManagerBasedRLEnv
 
 
 
-def Go2_position_command_error_exp(env: Go2ManagerBasedRLEnv, command_name: str, std: float, asset_cfg: SceneEntityCfg) -> torch.Tensor:
+def Go2_position_command_error_exp(env: ManagerBasedRLEnv, command_name: str, std: float, asset_cfg: SceneEntityCfg) -> torch.Tensor:
     # extract the asset (to enable type hinting)
     asset: RigidObject = env.scene[asset_cfg.name]
     command = env.command_manager.get_command(command_name)
@@ -77,14 +77,14 @@ def track_ang_vel_z_exp(
     return torch.exp(-ang_vel_error / std**2)
 
 
-def lin_vel_z_l2(env: Go2ManagerBasedRLEnv, asset_cfg: SceneEntityCfg = SceneEntityCfg("robot")) -> torch.Tensor:
+def lin_vel_z_l2(env: ManagerBasedRLEnv, asset_cfg: SceneEntityCfg = SceneEntityCfg("robot")) -> torch.Tensor:
     """Penalize z-axis base linear velocity using L2 squared kernel."""
     # extract the used quantities (to enable type-hinting)
     asset: RigidObject = env.scene[asset_cfg.name]
     return torch.square(asset.data.root_lin_vel_b[:, 2])
 
 
-def ang_vel_xy_l2(env: Go2ManagerBasedRLEnv, asset_cfg: SceneEntityCfg = SceneEntityCfg("robot")) -> torch.Tensor:
+def ang_vel_xy_l2(env: ManagerBasedRLEnv, asset_cfg: SceneEntityCfg = SceneEntityCfg("robot")) -> torch.Tensor:
     """Penalize xy-axis base angular velocity using L2 squared kernel."""
     # extract the used quantities (to enable type-hinting)
     asset: RigidObject = env.scene[asset_cfg.name]
@@ -127,7 +127,7 @@ def action_rate_l2_Go2(env: ManagerBasedRLEnv) -> torch.Tensor:
 
 
 def Go2_feet_air_time(
-    env: Go2ManagerBasedRLEnv, command_name: str, sensor_cfg: SceneEntityCfg, threshold: float
+    env: ManagerBasedRLEnv, command_name: str, sensor_cfg: SceneEntityCfg, threshold: float
 ) -> torch.Tensor:
     """Reward long steps taken by the feet using L2-kernel.
 
@@ -177,7 +177,7 @@ def flat_orientation_l2(env: ManagerBasedRLEnv, asset_cfg: SceneEntityCfg = Scen
     asset: RigidObject = env.scene[asset_cfg.name]
     return torch.sum(torch.square(asset.data.projected_gravity_b[:, :2]), dim=1)
 
-def hip_action_l2(env: Go2ManagerBasedRLEnv) -> torch.Tensor:
+def hip_action_l2(env: ManagerBasedRLEnv) -> torch.Tensor:
     """Penalize the actions using L2 squared kernel."""
     return torch.sum(torch.square(env.action_manager.action[:, [0, 3 , 6, 9]]), dim=1)
 
@@ -241,7 +241,7 @@ def orientation_command_error(env: ManagerBasedRLEnv, command_name: str, asset_c
 
 
 
-def is_alive(env: Go2ManagerBasedRLEnv) -> torch.Tensor:
+def is_alive(env: ManagerBasedRLEnv) -> torch.Tensor:
     """Reward for being alive."""
     return (~env.termination_manager.terminated).float()
 
@@ -290,7 +290,7 @@ Root penalties.
 
 
 def base_height_l2(
-    env: Go2ManagerBasedRLEnv, target_height: float, asset_cfg: SceneEntityCfg = SceneEntityCfg("robot")
+    env: ManagerBasedRLEnv, target_height: float, asset_cfg: SceneEntityCfg = SceneEntityCfg("robot")
 ) -> torch.Tensor:
     """Penalize asset height from its target using L2 squared kernel.
 
@@ -425,7 +425,7 @@ def joint_vel_limits(
     return torch.sum(out_of_limits, dim=1)
 
 ##Go2ARM
-def joint_arm_energy_abs_sum(env: Go2ManagerBasedRLEnv, asset_cfg: SceneEntityCfg = SceneEntityCfg("robot")) -> torch.Tensor:
+def joint_arm_energy_abs_sum(env: ManagerBasedRLEnv, asset_cfg: SceneEntityCfg = SceneEntityCfg("robot")) -> torch.Tensor:
     asset: Articulation = env.scene[asset_cfg.name]
 
     arm_joint, _ = asset.find_joints([ 
@@ -435,7 +435,7 @@ def joint_arm_energy_abs_sum(env: Go2ManagerBasedRLEnv, asset_cfg: SceneEntityCf
     return torch.sum(torch.abs(asset.data.applied_torque[:,arm_joint] * asset.data.joint_vel[:, arm_joint]), dim=1)
 
 ##Go2ARM
-def joint_leg_energy_abs_sum(env: Go2ManagerBasedRLEnv, asset_cfg: SceneEntityCfg = SceneEntityCfg("robot")) -> torch.Tensor:
+def joint_leg_energy_abs_sum(env: ManagerBasedRLEnv, asset_cfg: SceneEntityCfg = SceneEntityCfg("robot")) -> torch.Tensor:
     asset: Articulation = env.scene[asset_cfg.name]
     leg_joint, _ = asset.find_joints([ "FR_hip_joint", "FR_thigh_joint", "FR_calf_joint",
                         "FL_hip_joint", "FL_thigh_joint", "FL_calf_joint",
@@ -540,7 +540,7 @@ Velocity-tracking rewards.
 
 
 def feet_air_time(
-    env: Go2ManagerBasedRLEnv, command_name: str, sensor_cfg: SceneEntityCfg, threshold: float
+    env: ManagerBasedRLEnv, command_name: str, sensor_cfg: SceneEntityCfg, threshold: float
 ) -> torch.Tensor:
     """Reward long steps taken by the feet using L2-kernel.
 
