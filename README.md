@@ -37,7 +37,7 @@ git clone https://github.com/zzzJie-Robot/Go2Arm_Lab.git
 
 #### Training
 
-Run distributed RL training in headless mode for maximum throughput:
+Run reinforcement learning training in headless mode to improve training efficiency:
 
 ```
 # Activate IsaacLab environment
