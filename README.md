@@ -30,6 +30,7 @@ Go2Arm_Lab enables RL training for the **Go2Arm** robot:
 2. Clone this repository into your IsaacLab root (same level as `source/`):
 
 ```
+cd /path/to/IsaacLab
 git clone https://github.com/zzzJie-Robot/Go2Arm_Lab.git
 ```
 
