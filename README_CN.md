@@ -27,6 +27,7 @@ Go2Arm_Lab 使足式操作机器人的强化学习训练成为可能:
 1. 按照[官方指南](https://isaac-sim.github.io/IsaacLab/v1.4.1/source/setup/installation/index.html)安装 IsaacLab v1.4.1。
 2. 将此仓库克隆到您的 IsaacLab 根目录（与 `source/` 同级）:
 ```
+cd /path/to/IsaacLab
 git clone https://github.com/zzzJie-Robot/Go2Arm_Lab.git
 ```
 
