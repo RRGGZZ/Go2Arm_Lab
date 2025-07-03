@@ -1,7 +1,7 @@
 # Go2Arm_Lab
 ## Overview
 
-[中文文档](https://github.com/zzzJie-Robot/Go2Arm_Lab "中文文档")  
+[中文文档](https://github.com/zzzJie-Robot/Go2Arm_Lab/blob/main/README_CN.md "中文文档")  
 
 Go2Arm_Lab is a reinforcement learning training framework for legged manipulation robots based on the IsaacLab platform.
 
