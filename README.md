@@ -1,5 +1,6 @@
 # Go2Arm_Lab  
 **A Reinforcement-Learning(RL) Training Framework for Legged Manipulation Robots**  
+
 [中文文档](https://github.com/zzzJie-Robot/Go2Arm_Lab/blob/main/README_CN.md "中文文档")  
 
 Built on [IsaacLab v1.4.1](https://isaac-sim.github.io/IsaacLab/v1.4.1)  
@@ -11,7 +12,6 @@ Built on [IsaacLab v1.4.1](https://isaac-sim.github.io/IsaacLab/v1.4.1)
   <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License" />
 </p>
 
----
 
 ## 🚀 Overview  
 Go2Arm_Lab enables end-to-end RL training for the **Go2Arm** robot:  
@@ -29,7 +29,6 @@ Go2Arm_Lab enables end-to-end RL training for the **Go2Arm** robot:
 |---------------------|-------------------|
 | ![IsaacLab](https://via.placeholder.com/300x150/0a84ff/ffffff?text=IsaacLab) | ![Gazebo](https://via.placeholder.com/300x150/ff6b6b/ffffff?text=Gazebo) |
 
----
 
 ## 📦 Installation  
 1. Install IsaacLab v1.4.1 following the [official guide](https://isaac-sim.github.io/IsaacLab/v1.4.1/source/setup/installation/index.html).  
