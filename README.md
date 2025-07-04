@@ -20,10 +20,10 @@ Go2Arm_Lab enables RL training for the **Go2Arm** robot:
 > If you want to deploy your policy in Gazebo, please use:
 > [Go2Arm_sim2sim](https://github.com/zzzJie-Robot/Go2Arm_Lab)
 
-| IsaacLab Simulation                                                        | Gazebo Simulation                                                      |
-| -------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| <video controls><source src="https://github.com/zzzJie-Robot/Go2Arm_Lab/blob/main/IsaacLab_github.mp4" type="IsaacLab/mp4">Your browser does not support the video tag.</video> | <video controls><source src="https://github.com/zzzJie-Robot/Go2Arm_Lab/blob/main/Gazebo_github.mp4" type="Gazebo/mp4">Your browser does not support the video tag.</video> |
-
+| IsaacLab Simulation | Gazebo Simulation |
+|--------------------|-------------------|
+| ![IsaacLab](https://via.placeholder.com/300x150/0a84ff/ffffff?text=IsaacLab) | ![Gazebo](https://via.placeholder.com/300x150/ff6b6b/ffffff?text=Gazebo) |
+| <video controls><source src="https://github.com/zzzJie-Robot/Go2Arm_Lab/blob/main/IsaacLab_github.mp4" type="video/mp4">Your browser does not support the video tag.</video> | <video controls><source src="https://github.com/zzzJie-Robot/Go2Arm_Lab/blob/main/Gazebo_github.mp4" type="video/mp4">Your browser does not support the video tag.</video> |
 
 https://github.com/zzzJie-Robot/Go2Arm_Lab/blob/main/Gazebo_github.mp4
 ## 📦 Installation
