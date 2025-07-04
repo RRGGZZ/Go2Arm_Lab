@@ -68,5 +68,5 @@ cd /path/to/IsaacLab
 isaaclab.sh -p Go2Arm_main/play.py --num_envs 1
 ```
 
-<video src="IsaacLab_github.mp4.mp4" autoplay="true" controls="controls" width="800" height="600">
+<video src="IsaacLab_github.mp4" autoplay="true" controls="controls" width="800" height="600">
 </video>
