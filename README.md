@@ -23,7 +23,7 @@ Go2Arm_Lab enables RL training for the **Go2Arm** robot:
 | IsaacLab Simulation | Gazebo Simulation |
 |--------------------|-------------------|
 | ![IsaacLab](https://via.placeholder.com/300x150/0a84ff/ffffff?text=IsaacLab) | ![Gazebo](https://via.placeholder.com/300x150/ff6b6b/ffffff?text=Gazebo) |
-| <video controls><source src="https://github.com/zzzJie-Robot/Go2Arm_Lab/blob/main/IsaacLab_github.mp4" type="video/mp4">Your browser does not support the video tag.</video> | <video controls><source src="https://github.com/zzzJie-Robot/Go2Arm_Lab/blob/main/Gazebo_github.mp4" type="video/mp4">Your browser does not support the video tag.</video> |
+| <video controls><source src="IsaacLab_github.mp4" type="video/mp4">Your browser does not support the video tag.</video> | <video controls><source src="https://github.com/zzzJie-Robot/Go2Arm_Lab/blob/main/Gazebo_github.mp4" type="video/mp4">Your browser does not support the video tag.</video> |
 
 https://github.com/zzzJie-Robot/Go2Arm_Lab/blob/main/Gazebo_github.mp4
 ## 📦 Installation
@@ -67,3 +67,6 @@ cd /path/to/IsaacLab
 # Run inference
 isaaclab.sh -p Go2Arm_main/play.py --num_envs 1
 ```
+
+<video src="IsaacLab_github.mp4.mp4" autoplay="true" controls="controls" width="800" height="600">
+</video>
