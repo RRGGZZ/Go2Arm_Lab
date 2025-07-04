@@ -67,3 +67,6 @@ cd /path/to/IsaacLab
 # Run inference
 isaaclab.sh -p Go2Arm_main/play.py --num_envs 1
 ```
+
+## 🙏 Acknowledgments  
+The RL algorithm implementation in this project references the [Deep-Whole-Body-Control](https://github.com/MarkFzp/Deep-Whole-Body-Control) project, for which we extend our sincere gratitude.
