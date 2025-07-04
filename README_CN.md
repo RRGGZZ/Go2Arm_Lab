@@ -11,10 +11,10 @@ Go2Arm_Lab 使足式操作机器人的强化学习训练成为可能:
 - **基础平台**: Unitree Go2 四足机器人
 - **操作臂**: Interbotix WidowX 250s 机械臂
 
-> **版本兼容性**
+> **版本兼容性**  
 > 当前版本仅针对 IsaacLab v1.4.1。对 v2.00+ 的支持将在未来的更新中提供。
 
-> **Gazebo 部署**
+> **Gazebo 部署**  
 > 如果您想在 Gazebo 中部署您的策略，请使用：
 > [Go2Arm_sim2sim](https://github.com/zzzJie-Robot/Go2Arm_sim2sim)
 
