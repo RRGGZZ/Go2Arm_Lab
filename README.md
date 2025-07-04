@@ -13,10 +13,10 @@ Go2Arm_Lab enables RL training for the **Go2Arm** robot:
 - **Base platform**: Unitree Go2 quadruped
 - **Manipulator**: Interbotix WidowX 250s robotic arm
 
-> **Version compatibility**
+> **Version compatibility**  
 > Current release targets [IsaacLab v1.4.1](https://isaac-sim.github.io/IsaacLab/v1.4.1). Support for v2.00+ is planned in a future update.
 
-> **Gazebo deployment**
+> **Gazebo deployment**  
 > If you want to deploy your policy in Gazebo, please use:
 > [Go2Arm_sim2sim](https://github.com/zzzJie-Robot/Go2Arm_sim2sim)
 
