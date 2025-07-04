@@ -64,3 +64,6 @@ cd /path/to/IsaacLab
 # Run inference
 isaaclab.sh -p Go2Arm_main/play.py --num_envs 1
 ```
+
+## 🙏 致谢
+本项目的强化学习算法实现参考了[Deep-Whole-Body-Control](https://github.com/MarkFzp/Deep-Whole-Body-Control)开源项目，特此致谢。
