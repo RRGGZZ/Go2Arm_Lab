@@ -1,3 +1,5 @@
+# Copyright (c) 2025-2026 Junjie Zhu
+# SPDX-License-Identifier: Apache-2.0
 
 """Script to play a checkpoint if an RL agent from RSL-RL."""
 

@@ -1,3 +1,6 @@
+# Copyright (c) 2025-2026 Junjie Zhu
+# SPDX-License-Identifier: Apache-2.0
+
 
 """This sub-module contains the functions that are specific to the locomotion environments."""
 from .cfg import commands_cfg  # noqa: F401

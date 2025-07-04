@@ -1,3 +1,6 @@
+# Copyright (c) 2025-2026 Junjie Zhu
+# SPDX-License-Identifier: Apache-2.0
+
 from dataclasses import MISSING
 
 from omni.isaac.lab.managers import CommandTermCfg

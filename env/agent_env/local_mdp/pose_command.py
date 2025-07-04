@@ -1,3 +1,6 @@
+# Copyright (c) 2025-2026 Junjie Zhu
+# SPDX-License-Identifier: Apache-2.0
+
 """Sub-module containing command generators for pose tracking."""
 
 from __future__ import annotations

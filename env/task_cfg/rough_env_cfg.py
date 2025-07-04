@@ -1,3 +1,6 @@
+# Copyright (c) 2025-2026 Junjie Zhu
+# SPDX-License-Identifier: Apache-2.0
+
 from omni.isaac.lab.utils import configclass
 
 from ..agent_env.manager_env_cfg import LocomotionVelocityRoughEnvCfg

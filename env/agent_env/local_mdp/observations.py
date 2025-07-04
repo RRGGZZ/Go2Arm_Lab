@@ -1,3 +1,6 @@
+# Copyright (c) 2025-2026 Junjie Zhu
+# SPDX-License-Identifier: Apache-2.0
+
 """Common functions that can be used to create observation terms.
 
 The functions can be passed to the :class:`omni.isaac.lab.managers.ObservationTermCfg` object to enable

@@ -1,3 +1,6 @@
+# Copyright (c) 2025-2026 Junjie Zhu
+# SPDX-License-Identifier: Apache-2.0
+
 from __future__ import annotations
 import torch
 from omni.isaac.lab.managers.reward_manager import RewardManager as RewardManagerBase

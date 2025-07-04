@@ -1,3 +1,6 @@
+# Copyright (c) 2025-2026 Junjie Zhu
+# SPDX-License-Identifier: Apache-2.0
+
 from omni.isaac.lab.envs import ManagerBasedRLEnv
 from . import local_manager
 

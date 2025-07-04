@@ -1,3 +1,6 @@
+# Copyright (c) 2025-2026 Junjie Zhu
+# SPDX-License-Identifier: Apache-2.0
+
 import os
 current_dir = os.path.dirname(os.path.abspath(__file__))
 usd_file_path = os.path.join(current_dir, "go2_arm.usd")
