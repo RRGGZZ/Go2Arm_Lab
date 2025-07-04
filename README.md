@@ -67,6 +67,9 @@ cd /path/to/IsaacLab
 # Run inference
 isaaclab.sh -p Go2Arm_main/play.py --num_envs 1
 ```
-
-<video src="IsaacLab_github.mp4" autoplay="true" controls="controls" width="800" height="600">
-</video>
+---
+<iframe 
+src="[test](https://www.bilibili.com/video/BV1fV411x72a/?spm_id_from=333.999.0.0&vd_source=c41062c703998ff2396288122e0ab779)" 
+scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> 
+</iframe>
+---
