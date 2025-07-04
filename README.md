@@ -22,10 +22,8 @@ Go2Arm_Lab enables RL training for the **Go2Arm** robot:
 
 | IsaacLab Simulation | Gazebo Simulation |
 |--------------------|-------------------|
-| ![IsaacLab](https://via.placeholder.com/300x150/0a84ff/ffffff?text=IsaacLab) | ![Gazebo](https://via.placeholder.com/300x150/ff6b6b/ffffff?text=Gazebo) |
-| <video controls><source src="IsaacLab_github.mp4" type="video/mp4">Your browser does not support the video tag.</video> | <video controls><source src="https://github.com/zzzJie-Robot/Go2Arm_Lab/blob/main/Gazebo_github.mp4" type="video/mp4">Your browser does not support the video tag.</video> |
+| <video controls><source src="IsaacLab_github.mp4" type="video/mp4">Your browser does not support the video tag.</video> | <video controls><source src="Gazebo_github.mp4" type="video/mp4">Your browser does not support the video tag.</video> |
 
-https://github.com/zzzJie-Robot/Go2Arm_Lab/blob/main/Gazebo_github.mp4
 ## 📦 Installation
 
 1. Install IsaacLab v1.4.1 following the [official guide](https://isaac-sim.github.io/IsaacLab/v1.4.1/source/setup/installation/index.html).
@@ -67,9 +65,3 @@ cd /path/to/IsaacLab
 # Run inference
 isaaclab.sh -p Go2Arm_main/play.py --num_envs 1
 ```
----
-<iframe 
-src="[test](https://www.bilibili.com/video/BV1fV411x72a/?spm_id_from=333.999.0.0&vd_source=c41062c703998ff2396288122e0ab779)" 
-scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> 
-</iframe>
----
