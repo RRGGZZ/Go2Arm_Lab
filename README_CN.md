@@ -20,7 +20,9 @@ Go2Arm_Lab 使足式操作机器人的强化学习训练成为可能:
 
 | IsaacLab 仿真                                                        | Gazebo 仿真 Simulation                                                      |
 | -------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| ![IsaacLab](https://via.placeholder.com/300x150/0a84ff/ffffff?text=IsaacLab) | ![Gazebo](https://via.placeholder.com/300x150/ff6b6b/ffffff?text=Gazebo) |
+| ![IsaacLab](https://github.com/zzzJie-Robot/Go2Arm_Lab/raw/main/video/IsaacLab.gif)  | ![Gazebo](https://github.com/zzzJie-Robot/Go2Arm_Lab/raw/main/video/Gazebo.gif)  |
+
+**更多视频**请访问我的[Bilibili 主页](https://space.bilibili.com/400627082?spm_id_from=333.1007.0.0).
 
 ## 📦 安装
 
@@ -35,7 +37,7 @@ git clone https://github.com/zzzJie-Robot/Go2Arm_Lab.git
 
 #### 训练
 
-在无头模式下运行强化学习训练，以提高训练效率:
+在`headless`模式下运行强化学习训练，以提高训练效率:
 
 ```
 # Activate IsaacLab environment
