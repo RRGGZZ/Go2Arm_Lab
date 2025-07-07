@@ -211,7 +211,7 @@ def main():
             obs, obs_new = change_obs_order(obs, obs_new, total, env, agent_cfg)
             # print(obs)
             actions = policy(obs, hist_encoding=True) # no priv obs
-            actions *= 0.0
+
             obs, _, _, _, _ = env.step(actions)
 
         if args_cli.video:

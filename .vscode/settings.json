@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "C:\\Users\\LENOVO\\Desktop\\code",
+        "./local_"
+    ]
+}

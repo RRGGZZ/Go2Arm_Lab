@@ -45,9 +45,9 @@ Go2_BASE_TERRAINS_CFG = TerrainGeneratorCfg(
     slope_threshold=0.75,
     use_cache=False,
     sub_terrains={
-        "flat": terrain_gen.MeshPlaneTerrainCfg(proportion=0.7),
+        "flat": terrain_gen.MeshPlaneTerrainCfg(proportion=0.3),
         "random_rough": terrain_gen.HfRandomUniformTerrainCfg(
-            proportion=0.1, noise_range=(-0.01, 0.01), noise_step=0.02, border_width=0.25
+            proportion=0.7, noise_range=(-0.01, 0.05), noise_step=0.02, border_width=0.25
         ),
     },
 )
