@@ -189,7 +189,7 @@ class RslRlVecEnvWrapper(VecEnv):
         20, 30, 180, 180, 180, 40, 30, 30, 30, 30, 10, 10]
         """
 
-        lst = self.env.observation_manager.get_active_iterable_terms(0)
+        lst = self.unwrapped.observation_manager.get_active_iterable_terms(0)
         keys = [item[0] for item in lst]
         lengths = [len(item[1]) for item in lst]
         return keys, lengths
