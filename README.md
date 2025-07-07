@@ -50,7 +50,7 @@ conda activate your_isaaclab_env
 cd /path/to/IsaacLab
 
 # Launch training (headless)
-isaaclab.sh -p Go2Arm_main/train.py --num_envs 4096  --max_iterations 10000 --headless
+isaaclab.sh -p Go2Arm_main/train.py --num_envs 4096  --max_iterations 10000 --headless --task Isaac-Flat-Go2Arm
 ```
 
 #### Inference
@@ -65,7 +65,7 @@ conda activate your_isaaclab_env
 cd /path/to/IsaacLab
 
 # Run inference
-isaaclab.sh -p Go2Arm_main/play.py --num_envs 1
+isaaclab.sh -p Go2Arm_main/play.py --num_envs 1 --task Isaac-Flat-Go2Arm-Play
 ```
 
 ## 🙏 Acknowledgments  
