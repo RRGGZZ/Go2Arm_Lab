@@ -20,7 +20,7 @@ Go2Arm_Lab enables RL training for the **Go2Arm** robot:
 > If you want to deploy your policy in Gazebo, please use:
 > [Go2Arm_sim2sim](https://github.com/zzzJie-Robot/Go2Arm_sim2sim)
 
-| IsaacLab Simulation | Gazebo Simulation |
+| IsaacLab Simulation (v1.4) | Gazebo Simulation |
 |--------------------|-------------------|
 | ![Gazebo](https://github.com/zzzJie-Robot/Go2Arm_Lab/raw/main/video/IsaacLab.gif) | ![Gazebo](https://github.com/zzzJie-Robot/Go2Arm_Lab/raw/main/video/Gazebo.gif) |
 
