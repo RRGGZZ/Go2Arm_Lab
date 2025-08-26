@@ -18,7 +18,7 @@ Go2Arm_Lab 使足式操作机器人的强化学习训练成为可能:
 > 如果您想在 Gazebo 中部署您的策略，请使用：
 > [Go2Arm_sim2sim](https://github.com/zzzJie-Robot/Go2Arm_sim2sim)
 
-| IsaacLab 仿真                                                        | Gazebo 仿真 Simulation                                                      |
+| IsaacLab 仿真 (v1.4)                                                       | Gazebo 仿真 Simulation                                                      |
 | -------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | ![IsaacLab](https://github.com/zzzJie-Robot/Go2Arm_Lab/raw/main/video/IsaacLab.gif)  | ![Gazebo](https://github.com/zzzJie-Robot/Go2Arm_Lab/raw/main/video/Gazebo.gif)  |
 
