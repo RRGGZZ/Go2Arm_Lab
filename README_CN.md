@@ -14,7 +14,7 @@ Go2Arm_Lab 使足式操作机器人的强化学习训练成为可能:
 > **版本兼容性**  
 > 当前仓库依赖于 **IsaacLab v2.1.0**。
 > 经测试，该仓库在**IsaacLab v2.2.0**上也可以正常运行。
-> 对于 IsaacLab v1.4.1，请使用此仓库的[v1.4.1](https://github.com/zzzJie-Robot/Go2Arm_Lab)版本。
+> 对于 IsaacLab v1.4.1，请使用此仓库的[v1.4.1](https://github.com/zzzJie-Robot/Go2Arm_Lab/releases/tag/v1.4)版本。
 
 > **Gazebo 部署**  
 > 如果您想在 Gazebo 中部署您的策略，请使用：
@@ -22,7 +22,7 @@ Go2Arm_Lab 使足式操作机器人的强化学习训练成为可能:
 
 | IsaacLab 仿真 (v2.1)                                                       | Gazebo 仿真 Simulation                                                      |
 | -------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| ![IsaacLab](https://github.com/zzzJie-Robot/Go2Arm_Lab/raw/main/video/IsaacLab.gif)  | ![Gazebo](https://github.com/zzzJie-Robot/Go2Arm_Lab/raw/main/video/Gazebo.gif)  |
+| ![IsaacLab](https://github.com/zzzJie-Robot/Go2Arm_Lab/blob/main/video/IsaacLab%20v2.1.gif)  | ![Gazebo](https://github.com/zzzJie-Robot/Go2Arm_Lab/blob/main/video/Gazebo.gif)  |
 
 **更多视频**欢迎访问我的[Bilibili 主页](https://space.bilibili.com/400627082?spm_id_from=333.1007.0.0).
 

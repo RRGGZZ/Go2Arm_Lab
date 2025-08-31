@@ -16,7 +16,7 @@ Go2Arm_Lab enables RL training for the **Go2Arm** robot:
 > **Version compatibility**  
 > This repository currently depends on **IsaacLab v2.1.0**.  
 > The repository can also run on **IsaacLab v2.2.0**.
-> For IsaacLab v1.4.1, please use the [v1.4.1](https://github.com/zzzJie-Robot/Go2Arm_Lab) version of this repository.
+> For IsaacLab v1.4.1, please use the [v1.4.1](https://github.com/zzzJie-Robot/Go2Arm_Lab/releases/tag/v1.4) version of this repository.
 
 > **Gazebo deployment**  
 > If you want to deploy your policy in Gazebo, please use:
@@ -24,7 +24,7 @@ Go2Arm_Lab enables RL training for the **Go2Arm** robot:
 
 | IsaacLab Simulation (v2.1) | Gazebo Simulation |
 |--------------------|-------------------|
-| ![Gazebo](https://github.com/zzzJie-Robot/Go2Arm_Lab/raw/main/video/IsaacLab.gif) | ![Gazebo](https://github.com/zzzJie-Robot/Go2Arm_Lab/raw/main/video/Gazebo.gif) |
+| ![IsaacLab](https://github.com/zzzJie-Robot/Go2Arm_Lab/blob/main/video/IsaacLab%20v2.1.gif)  | ![Gazebo](https://github.com/zzzJie-Robot/Go2Arm_Lab/blob/main/video/Gazebo.gif)  |
 
 For **more videos**, please visit my [Bilibili homepage](https://space.bilibili.com/400627082?spm_id_from=333.1007.0.0).
 
