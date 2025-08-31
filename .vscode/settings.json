@@ -1,6 +1,10 @@
 {
     "python.analysis.extraPaths": [
-        "C:\\Users\\LENOVO\\Desktop\\code",
-        "./local_"
+        "${workspaceFolder}/source/Go2Arm_Lab",
+        "/home/zzzjie/IsaacLab/source/isaaclab",
+        "/home/zzzjie/IsaacLab/source/isaaclab_assets",
+        "/home/zzzjie/IsaacLab/source/isaaclab_mimic",
+        "/home/zzzjie/IsaacLab/source/isaaclab_rl",
+        "/home/zzzjie/IsaacLab/source/isaaclab_tasks"
     ]
 }

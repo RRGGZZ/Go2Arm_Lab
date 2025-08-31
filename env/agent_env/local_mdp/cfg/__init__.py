@@ -1,1 +1,0 @@
-from . import commands_cfg as CommandsCfg
