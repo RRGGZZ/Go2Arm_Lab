@@ -12,9 +12,9 @@ Go2Arm_Lab 使足式操作机器人的强化学习训练成为可能:
 - **操作臂**: Interbotix WidowX 250s 机械臂
 
 > **版本兼容性**  
-> 当前仓库依赖于 **IsaacLab v2.1.0**。
-> 经测试，该仓库在**IsaacLab v2.2.0**上也可以正常运行。
-> 对于 IsaacLab v1.4.1，请使用此仓库的[v1.4.1](https://github.com/zzzJie-Robot/Go2Arm_Lab/releases/tag/v1.4)版本。
+> 当前仓库依赖于 **IsaacLab v2.1.0**。 
+> 经测试，该仓库在**IsaacLab v2.2.0**上也可以正常运行。 
+> 对于 IsaacLab v1.4.1，请使用此仓库的[v1.4.1](https://github.com/zzzJie-Robot/Go2Arm_Lab/releases/tag/v1.4)版本。 
 
 > **Gazebo 部署**  
 > 如果您想在 Gazebo 中部署您的策略，请使用：
@@ -73,6 +73,28 @@ cd /path/to/Go2Arm_Lab
 python scripts/rsl_rl/play.py --task Isaac-Go2Arm-Flat-Play --num_envs 1 
 ```
 
+## 💡 VS Code 完整识别 Isaac Lab 所有 Python 模块
+
+1. 打开当前仓库根目录
+```
+code .
+```
+2. 新建或编辑 `.vscode/settings.json`
+如果目录里还没有 `.vscode` 文件夹，直接新建即可。
+把下面这段 `JSON` 粘贴进去，把 `/path/to/IsaacLab` 换成你的实际路径
+```
+{
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/source/Go2Arm_Lab",
+    "/path/to/IsaacLab/source/isaaclab",
+    "/path/to/IsaacLab/source/isaaclab_assets",
+    "/path/to/IsaacLab/source/isaaclab_mimic",
+    "/path/to/IsaacLab/source/isaaclab_rl",
+    "/path/to/IsaacLab/source/isaaclab_tasks"
+  ]
+}
+```
+保存文件，重新打开任意 `.py` 文件即可体验完整补全、跳转与类型检查。
 
 ## 🙏 致谢
 本项目的强化学习算法实现参考了[Deep-Whole-Body-Control](https://github.com/MarkFzp/Deep-Whole-Body-Control)，特此致谢。
