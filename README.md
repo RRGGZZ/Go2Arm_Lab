@@ -72,5 +72,32 @@ cd /path/to/Go2Arm_Lab
 python scripts/rsl_rl/play.py --task Isaac-Go2Arm-Flat-Play --num_envs 1
 ```
 
+## 💡 Let VS Code Fully Recognize All Isaac Lab Python Modules
+
+1. Open the root of your workspace  
+   ```
+   code .
+   ```
+
+2. Create or edit `.vscode/settings.json`  
+   If the `.vscode` folder doesn’t exist yet, simply create it.  
+   Paste the JSON below and replace `/path/to/IsaacLab` with your actual path:
+
+   ```
+   {
+     "python.analysis.extraPaths": [
+       "${workspaceFolder}/source/Go2Arm_Lab",
+       "/path/to/IsaacLab/source/isaaclab",
+       "/path/to/IsaacLab/source/isaaclab_assets",
+       "/path/to/IsaacLab/source/isaaclab_mimic",
+       "/path/to/IsaacLab/source/isaaclab_rl",
+       "/path/to/IsaacLab/source/isaaclab_tasks"
+     ]
+   }
+   ```
+
+Save the file, reopen any `.py` file, and enjoy full IntelliSense—completion, go-to-definition, and type checking.
+
+
 ## 🙏 Acknowledgments  
 The RL algorithm implementation in this project references the [Deep-Whole-Body-Control](https://github.com/MarkFzp/Deep-Whole-Body-Control) project, for which we extend our sincere gratitude.
